@@ -195,12 +195,7 @@ button[type="submit"] {
 }
 
 .flag {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 50px;
-}
-
-.flag button {
+  position: fixed;
   bottom: 0;
   right: 50px;
   height: 41px;
