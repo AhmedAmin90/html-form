@@ -27,14 +27,22 @@ header p {
   font-size: 13px;
   letter-spacing: 0.03ch;
   width: 100%;
-  margin: 0 4px 0 0 ;
-  
-  
+  margin: 0 4px 0 0;
 }
 
 header a {
   font-size: 13px;
   margin: 0 4px 0 0;
+}
+
+button {
+  font-size: 16px;
+  border: none;
+  border: 1px solid #4c4c4c;
+  border-radius: 3px;
+  color: white;
+  background-color: #0077c5;
+  cursor: pointer;
 }
 
 header button {
@@ -45,6 +53,7 @@ header button {
   font-weight: 500;
   margin-left: 3px;
 }
+
 /* Container */
 
 .container {
@@ -143,16 +152,6 @@ input {
   font-size: 10px;
 }
 
-button {
-  font-size: 16px;
-  border: none;
-  border: 1px solid #4c4c4c;
-  border-radius: 3px;
-  color: white;
-  background-color: #0077c5;
-  cursor: pointer;
-}
-
 button[type="submit"] {
   margin: 0 0 30px 0;
   width: 100%;
@@ -213,18 +212,17 @@ button[type="submit"] {
   font-size: 14px;
 }
 
-
 /* Footer */
 
 footer {
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: column;
 }
 
-.footer-links{
-margin-top: 15px;
-align-items: center;
+.footer-links {
+  margin-top: 15px;
+  align-items: center;
 }
 
 .footer-links a {
